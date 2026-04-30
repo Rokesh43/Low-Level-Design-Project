@@ -1,5 +1,10 @@
-Encapsulation – Secured user, account, loan, and transaction data using private fields with getters and setters.
-Abstraction – Business logic handled through Service layer methods, hiding implementation details from controllers.
-Inheritance – Common properties and behaviors reused between related classes where required.
-Polymorphism – Used method overriding and flexible service implementations for different operations.
-Followed Object-Oriented Design principles to build a modular, maintainable, and scalable banking application.
+Tic Tac Toe Game Project
+
+Technologies: Java, OOPs Concepts
+
+Developed a console-based Tic Tac Toe game using Java and Object-Oriented Programming concepts.
+Implemented a User Board system to manage player moves, game status, and winner checking logic.
+Used OOP concepts like Encapsulation, Abstraction, Inheritance, and Polymorphism for clean and modular design.
+Created separate classes such as Main Class, Player Class, and Board Class to improve code organization and maintainability.
+Added features like two-player gameplay, input validation, board display, and win/draw condition checking.
+Designed the project with reusable methods and structured logic for better scalability and readability.
