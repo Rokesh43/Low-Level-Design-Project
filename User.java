@@ -1,25 +1,27 @@
 package com;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class User {
-	int userId;
-	String Username;
-	int age;
-	long phone;
+	private String name,password;
 	
-	List<Product> cart=new ArrayList<Product>();
-	
-	
-	public User(int userId, String username, int age, long phone) {
-		super();
-		this.userId = userId;
-		Username = username;
-		this.age = age;
-		this.phone = phone;
+	User(String name,String password){
+		this.name=name;
+		this.password=password;
 	}
-	
-	
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getPassword() {
+		return password;
+	}
+
+	public void setPassword(String password) {
+		this.password = password;
+	}
 
 }
